@@ -23,4 +23,16 @@ Esses dados são armazenados em um banco de dados **MongoDB local** e podem ser 
 
 ## 🧱 Estrutura do Projeto
 
+youtube-nosql/
+├── src/ # Scripts principais
+│ ├── fetch_data.py # Coleta dados do YouTube
+│ ├── insert_to_mongo.py# Insere os dados no MongoDB
+│ └── query_data.py # Consulta os dados do MongoDB
+├── data/ # Exportação dos dados
+│ └── export.json
+├── youtool/ # Biblioteca embutida
+├── .env # Chave da API do YouTube (não versionada)
+├── demo.gif # Demonstração do projeto
+└── README.md
+
 ![Demonstração](demo.gif)
